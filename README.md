@@ -1,4 +1,4 @@
-# Boas vindas ao repositório do projeto de My-Page!
+# Boas vindas ao repositório do projeto My-Page!
 
 ## Instruções para rodar o projeto
 1. Clone o repositório
