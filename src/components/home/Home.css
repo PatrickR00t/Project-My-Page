@@ -1,0 +1,32 @@
+.home h1 {
+  color: #1b1918;
+  font-size: 50px;
+}
+
+.dinamic-text {
+  font-size: 29px;
+  font-family: monospace;
+  color: #fc6d6d;
+}
+
+.home img {
+  margin-top: 40px;
+  border-radius: 50%;
+  border: solid 2px #c0e4eb;
+}
+
+.home .icons {
+  background-color: silver;
+  color: rgba(0, 0, 0, 0.829);
+  border: solid 2px #c0e4eb;
+  border-radius: 50%;
+  padding: 5px;
+  height: 20px;
+  width: 20px;
+  margin: 70px 4px;
+  cursor: pointer;
+}
+
+.home .icons:hover {
+  background-color: rgb(255, 255, 247);
+}

@@ -1,0 +1,26 @@
+.links-header {
+  display: flex;
+  list-style: none;
+  box-shadow: 1px 15px 12px rgb(224, 224, 224);
+  border-radius: 7px;
+}
+
+.link-header {
+  display: flex;
+  justify-content: center;
+  background-color: #232c35;
+  color: #fff;
+  border: solid 1px #555;
+  border-radius: 10px;
+  padding: 7px;
+  cursor: pointer;
+  margin: 10px 7px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.link-header:hover {
+  background-color: #316770;
+}

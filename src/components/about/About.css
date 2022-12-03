@@ -1,0 +1,63 @@
+.container-about {
+  display: flex;
+  justify-content: center;
+}
+
+.content-about {
+  text-align: center;
+  height: 510px;
+  width: 500px;
+  background-color: rgba(223, 236, 252, 0.767);
+  border-radius: 20px;
+}
+
+.content-about img {
+  margin-top: 10px;
+  border-radius: 10%;
+  height: 150px;
+  width: 150px;
+}
+
+.about-certificates {
+  margin-top: 52px;
+}
+
+.about-tech {
+  margin-top: 54px;
+}
+
+.about-certificates button {
+  background-color: transparent;
+  padding: 4px;
+  color: rgb(40, 151, 179);
+  border: none;
+  border-radius: 9px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.about-tech button {
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(35, 109, 170);
+  color: #fff;
+  height: 29px;
+  margin: 12px 4px;
+}
+
+.about-certificates h3 {
+  color: rgb(54, 121, 177);
+  margin-bottom: 20px;
+}
+
+.about-tech h3 {
+  color: rgb(54, 121, 177);
+}
+
+h2{
+  color: rgba(21, 100, 179, 0.767);
+}
+
+hr {
+  width: 87px;
+}
