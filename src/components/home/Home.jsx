@@ -22,7 +22,7 @@ function Home() {
       <a href="https://github.com/PatrickR00t" target="_blank" rel="noopener noreferrer">
         <AiFillGithub className='icons' />
       </a>
-      <a href="https://www.linkedin.com/in/patrick-santiago-840b41219" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/patrick-santiago-840b41219/?original_referer=https%3A%2F%2Fgithub.com%2FPatrickR00t" target="_blank" rel="noopener noreferrer">
         <AiFillLinkedin className='icons' />
       </a>
     </div>
