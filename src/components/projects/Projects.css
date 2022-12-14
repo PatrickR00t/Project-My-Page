@@ -24,7 +24,7 @@
 }
 
 .projects-links a {
-  background-image: linear-gradient(92.88deg, #5265a7 9.16%, #5747c0 43.89%, #673FD7 64.72%);
+  background-image: linear-gradient(92.88deg, #628079 9.16%, #79a079 43.89%, #597971 64.72%);
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -40,10 +40,10 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  padding-top: 4px;
-  margin: 4px 15px;
+  padding-top: 5px;
+  margin: 4px 19px;
   height: 2rem;
-  width: 80px;
+  width: 87px;
 }
 
 .content-project a:hover {
@@ -62,5 +62,6 @@ h2 {
 }
 
 .content-project h2 {
-  color: rgb(17, 29, 44);
+  color: rgb(115, 170, 141);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
