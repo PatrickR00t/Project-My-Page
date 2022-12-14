@@ -4,18 +4,20 @@
 }
 
 .content-about {
+  background-image: linear-gradient(92.88deg, #302e2e 9.16%, #383737d7 43.89%, #525050 64.72%);
   text-align: center;
   height: 510px;
   width: 500px;
-  background-color: rgba(223, 236, 252, 0.767);
+  border: solid 0.2px #464545f5;
   border-radius: 20px;
+  box-shadow: 5px 10px 10px #7c7979;
 }
 
 .content-about img {
   margin-top: 10px;
   border-radius: 10%;
-  height: 150px;
-  width: 150px;
+  height: 140px;
+  width: 140px;
 }
 
 .about-certificates {
@@ -28,8 +30,10 @@
 
 .about-certificates a {
   background-color: transparent;
+  font-size: 15px;
+  font-family: cursive;
   padding: 4px;
-  color: rgb(40, 151, 179);
+  color: rgb(41, 158, 84);
   border: none;
   border-radius: 9px;
   margin: 2px 2px;
