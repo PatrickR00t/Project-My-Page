@@ -1,17 +1,18 @@
 .container-about {
   display: flex;
   justify-content: center;
+  padding-bottom: 7px;
 }
 
 .content-about {
   background-color: #2b2d31f5;
-  box-shadow: 1px 15px 12px rgb(148, 144, 144);
+  box-shadow: 1px 12px 10px rgb(148, 144, 144);
   text-align: center;
   height: 510px;
   width: 500px;
   border: solid 0.2px #47494bf5;
   border-radius: 25px;
-  margin: 4px 7px;
+  margin: 7px 10px;
 }
 
 .content-about img {
@@ -22,7 +23,7 @@
 }
 
 .about-certificates {
-  margin-top: 40px;
+  margin-top: 29px;
 }
 
 .about-tech {
