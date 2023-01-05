@@ -1,11 +1,12 @@
 .home h1 {
-  color: #5f8f87;
-  font-size: 50px;
+  color: #1c8067;
+  font-size: 55px;
+  font-family: monospace;
 }
 
 .dinamic-text {
-  font-size: 29px;
-  font-family: monospace;
+  font-size: 27px;
+  font-family: Verdana, sans-serif;
   color: #e96d57;
 }
 
