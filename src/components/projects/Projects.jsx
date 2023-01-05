@@ -6,38 +6,38 @@ import './Projects.css';
 function Projects() {
   return (
     <>
-      <h2>Projetos</h2>
+      <h2>Projects</h2>
       <div className='container-projects'>
         <div className='content-project'>
-          <h2>Filmes</h2>
+          <h2>Movies</h2>
           <img src={image} alt="project" />
           <div className='projects-links'>
             <a 
               href="https://patrickr00t-the-movies.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
-            >Visão</a>
+            >View</a>
             <a 
               href="https://github.com/PatrickR00t/Project-The-Movies"
               target="_blank"
               rel="noopener noreferrer"              
-            >Fonte</a>
+            >Source</a>
           </div>
         </div>
         <div className='content-project'>
-          <h2>Carrinho</h2>
+          <h2>Shopping</h2>
           <img src={image2} alt="project" />
           <div className='projects-links'>
             <a
               href="https://patrickr00t-shopping-cart.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
-              >Visão</a>
+            >View</a>
             <a
               href="https://github.com/PatrickR00t/Project-Shopping-Cart"
               target="_blank"
               rel="noopener noreferrer"
-            >Fonte</a>
+            >Source</a>
           </div>
         </div>
       </div>

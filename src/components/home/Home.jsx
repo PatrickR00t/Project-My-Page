@@ -8,13 +8,13 @@ function Home() {
   return (
     <div className='home'>
       <img src={ ProfileImage } alt="me" />
-      <h1>Eu Sou Patrick</h1>
+      <h1>I'm Patrick</h1>
       <TypeIt className='dinamic-text'
         options={{
           loop: true,
         }}
         getBeforeInit={(instance) => {
-          instance.type(" Pentester").pause(700).delete(9).type("Desenvolvedor").pause(700);
+          instance.type(" Pentester").pause(700).delete(9).type("Developer").pause(700);
           return instance;
         }}
       />

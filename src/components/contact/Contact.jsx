@@ -11,7 +11,7 @@ function Contact() {
     event.preventDefault();
 
     if (name === '' || email === '' || message === '') {
-      return alert('Todos os campos devem ser preenchidos');
+      return alert('All fields must be filled');
     }
     const templateParams = {
       from_name: name,
@@ -30,30 +30,30 @@ function Contact() {
 
   return (
     <>
-      <h2>Contato</h2>
+      <h2>Contact</h2>
       <div className="container-contact">
         <form className="form" onSubmit={sendEmail}>
           <input 
             className="input"
             type="text"
-            placeholder="Digite seu nome"
+            placeholder="Enter your name"
             onChange={(e) => setName(e.target.value)}
             value={name}
           />
           <input 
             className="input"
             type="text"
-            placeholder="Digite seu email"
+            placeholder="Enter your email"
             onChange={(e) => setEmail(e.target.value)}
             value={email}
           />
           <textarea 
             className="textarea"
-            placeholder="Digite sua mensagem..."
+            placeholder="Enter your message..."
             onChange={(e) => setMessage(e.target.value)}
             value={message}
           />
-          <input className="button" type="submit" value="Enviar" />
+          <input className="button" type="submit" value="Send" />
         </form>
       </div>
     </>

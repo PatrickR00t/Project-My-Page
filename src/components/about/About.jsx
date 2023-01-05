@@ -5,18 +5,18 @@ import './About.css';
 function About() {
   return (
     <>
-      <h2>Sobre mim</h2>
+      <h2>About Me</h2>
       <hr />
       <div className='container-about'>
         <div className='content-about'>
           <img src={ ProfileImage } alt="me" />
           <div className='about-certificates'>
-            <h3>Certificações:</h3>
+            <h3>Certifications:</h3>
             <a
               href="https://www.credential.net/815d9b6a-e576-4527-984d-34f5c9ab17b9#gs.kbkrit"
               target="_blank"
               rel="noopener noreferrer"
-            >Fundamentos</a>
+            >Fundamentals</a>
             <a
               href="https://www.credential.net/a958a058-2b79-4c2c-9610-544d06e130e8#gs.kbkv9y"
               target="_blank"
@@ -31,10 +31,10 @@ function About() {
               href="https://www.credential.net/50352802-f742-4174-8e86-573e12de2b38#gs.kbh5ci"
               target="_blank"
               rel="noopener noreferrer"
-            >Ciência da Computação</a>
+            >Computer Science</a>
           </div>
           <div className='about-tech'>
-            <h3>Principais Tecnologias:</h3>
+            <h3>Main Technologies:</h3>
             <button>Node</button>
             <button>Git</button>
             <button>C#</button>
