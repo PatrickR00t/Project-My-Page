@@ -4,6 +4,12 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.home h1 span {
+  color: #1c8067;
+  font-size: 51px;
+  font-family: cursive;
+}
+
 .dinamic-text {
   font-size: 27px;
   font-family: Verdana, sans-serif;
