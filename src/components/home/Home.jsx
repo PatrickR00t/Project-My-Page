@@ -8,9 +8,7 @@ function Home() {
   return (
     <div className='home'>
       <img src={ ProfileImage } alt="me" />
-      <h1>
-        <span>I'm</span> Patrick
-      </h1>
+      <h1>I'm Patrick</h1>
       <TypeIt className='dinamic-text'
         options={{
           loop: true,
