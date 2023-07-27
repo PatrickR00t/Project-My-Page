@@ -18,7 +18,7 @@ function Contact() {
       message: message,
       email: email
     }
-    emailjs.send('service_x5s4f6b', 'template_2g9x9xo', templateParams, '--21VRtetZsjy8bry')
+    emailjs.send('service_hasbgg7', 'template_uwwiy55', templateParams, '--21VRtetZsjy8bry')
     .then((response) => {
       setName('')
       setEmail('')
