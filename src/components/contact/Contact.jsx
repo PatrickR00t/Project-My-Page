@@ -18,12 +18,14 @@ function Contact() {
       message: message,
       email: email
     }
-    emailjs.send('service_hasbgg7', 'template_uwwiy55', templateParams, '--21VRtetZsjy8bry')
+    emailjs.send('service_pnc7j0x', 'template_fdi0wqh', templateParams, '7hPQDLSA4veBmboT4')
     .then((response) => {
+      alert("Email successfully sent")
       setName('')
       setEmail('')
       setMessage('')
     }, (err) => {
+      alert("Send failed")
       console.log('erro: ', err)
     })
   }
