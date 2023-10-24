@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import ProfileImage from '../../images/profile-image.jpeg';
+import ProfileImage from '../../images/profile-image.png';
 import TypeIt from 'typeit-react';
 import './Home.css';
 
