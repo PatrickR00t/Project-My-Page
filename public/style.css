@@ -27,7 +27,7 @@ body.dark {
   justify-content: space-between;
   padding: 5px;
   position: relative;
-  height: 16px;
+  height: 17px;
   width: 40px;
   transform: scale(0.9);
 }
@@ -45,7 +45,7 @@ body.dark {
 }
 
 .check-box:checked + .label .ball {
-  transform: translate(24px);
+  transform: translate(22px);
 }
 
 .fa-moon {
